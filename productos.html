@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>HARDSOFT</title>
+	<link rel="shortcut icon" type="image/png" href="Imagenes/logoc.png">
+	<meta charset="utf-8">
+	<!--de este link se obtiene la fuente de las letras utilizadas en el css-->
+	<link rel="stylesheet" type="text/css" href="CSS/FiraSans.CSS">
+	<link href="CSS/FontMerieweather.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/PTserif/PT_Serif-Web-Italic">
+	<!--en esta linea se refiera al documento CSS en si-->
+	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/modCss.css">
+	<script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+	<script src="bootstrap/popper/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+			<div class="col-md-12">
+				<div class="posicion">
+		  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#dialogo1">Login</button>
+
+    <div class="modal fade" id="dialogo1">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- cabecera del diálogo -->
+          <div class="modal-header">
+            <h4 class="modal-title">Iniciar Sesión</h4>
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+    
+          <!-- cuerpo del diálogo -->
+          <div class="col-md-7">
+          <div class="modal-body">
+            <form>
+          		<div class="form-group">
+            		<label for="recipient-name" class="col-form-label" >Usuario</label>
+            		<input type="text" class="form-control" id="recipient-name" placeholder="ingrese su usuario">
+        	  	</div>
+        	  	<div class="form-group">
+				    <label for="exampleInputPassword1">Contraseña</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ingrese su contraseña">
+			  	</div>
+      		</form>
+          </div>
+    	  </div>	
+          <!-- pie del diálogo -->
+          <div class="modal-footer">
+          	<button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    </div>
+			</div>
+		</div>
+
+		<div class="row">
+		<div class="col-md-11">
+			<div class="posicionMenu">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-rgb(23 55 93)">
+
+		  <a class="navbar-brand" href="index.html"><img src="Imagenes/Captura.png"></a>
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarMenu">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+		      </li>
+
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-toggle="dropdown">
+		          Productos
+		        </a>
+		        <div class="dropdown-menu" >
+		          <a class="dropdown-item" 
+		          href="productos.html#micro">Microprocesador</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#mother">Motherboard</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#ram">Memoria</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#video">Placa de Video</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#hdd">HDD</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#fuentes">Fuentes</a>
+		        </div>
+		      </li>
+		         <li class="nav-item">
+		        <a class="nav-link" href="recomendaciones.html">Recomendados</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="contacto.html">Contacto</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+		     </li>
+		    
+		    </ul>
+		 
+		   
+		  </div>
+		  
+		</nav>
+		</div>
+		</div>		
+		</div>
+	
+	<hr class="hr1">
+	
+	<div class="col-md-12">
+		<div class="product"id="micro">
+		    <h5 class="titulo"><b>Microprocesador</b></h5>		
+		
+			<div><img src="Imagenes/Micros/i9.png" class="imgMicro"><p>Microprocesador 1</p></div>
+			<div><img src="Imagenes/Micros/i9.png" class="imgMicro"><p>Microprocesador 2</p></div>
+			<div><img src="Imagenes/Micros/i9.png" class="imgMicro"><p>Microprocesador 3</p></div>
+			<div><img src="Imagenes/Micros/i9.png" class="imgMicro"><p>Microprocesador 4</p></div>
+
+		</div>
+
+
+	</div>
+	
+	<hr class="hr1">
+
+	<div class="col-md-12">
+		<div class="product" id="mother">
+		    <h5 class="titulo"><b>Motherboard</b></h5>		
+		
+			<div><img src="Imagenes/Aorus.png"><p>Motherboard 1</p></div>
+			<div><img src="Imagenes/Aorus.png"><p>Motherboard 2</p></div>
+			<div><img src="Imagenes/Aorus.png"><p>Motherboard 3</p></div>
+			<div><img src="Imagenes/Aorus.png"><p>Motherboard 4</p></div>
+		</div>
+
+	</div>
+	
+	<hr class="hr1">
+	
+	<div class="row">
+	<div class="col-md-12" id="ram">
+		<div class="product">
+		    <h5 class="titulo"><b>Memorias</b></h5>		
+		
+			<div><img src="Imagenes/trident.png"><p>Memorias Ram 1</p></div>
+			<div><img src="Imagenes/trident.png"><p>Memorias Ram 2</p></div>
+			<div><img src="Imagenes/trident.png"><p>Memorias Ram 3</p></div>
+			<div><img src="Imagenes/trident.png"><p>Memorias Ram 4</p></div>
+		</div>
+
+	</div>	
+	</div>
+	
+	<hr class="hr1">
+	
+	<div class="row">
+	<div class="col-md-12" id="video">
+		<div class="product">
+		    <h5 class="titulo"><b>Placas de Video</b></h5>		
+		
+			<div><img src="Imagenes/Rx580.png"><p>Placa de Video 1</p></div>
+			<div><img src="Imagenes/Rx580.png"><p>Placa de Video 2</p></div>
+			<div><img src="Imagenes/Rx580.png"><p>Placa de Video 3</p></div>
+			<div><img src="Imagenes/Rx580.png"><p>Placa de Video 4</p></div>
+		</div>
+
+	</div>	
+	</div>
+	
+	<hr class="hr1">
+	
+	<div class="row">
+	<div class="col-md-12" id="hdd">
+		<div class="product">
+		    <h5 class="titulo"><b>HDD</b></h5>		
+		
+			<div><img src="Imagenes/WD.png"><p>HDD 1</p></div>
+			<div><img src="Imagenes/WD.png"><p>HDD 2</p></div>
+			<div><img src="Imagenes/WD.png"><p>HDD 3</p></div>
+			<div><img src="Imagenes/WD.png"><p>HDD 4</p></div>
+		</div>
+
+	</div>
+	</div>
+
+	<hr class="hr1">
+
+	<div class="row">	
+	<div class="col-md-12" id="fuentes">
+		<div class="product">
+		    <h5 class="titulo"><b>Fuentes</b></h5>		
+		
+			<div><img src="Imagenes/Fuente.png"><p>Fuente 1</p></div>
+			<div><img src="Imagenes/Fuente.png"><p>Fuente 2</p></div>
+			<div><img src="Imagenes/Fuente.png"><p>Fuente 3</p></div>
+			<div><img src="Imagenes/Fuente.png"><p>Fuente 4</p></div>
+		</div>
+
+	</div>	
+	</div>	
+	<hr class="hr1">	
+	<div class="row justify-content-center">
+			<div class="col-md-4">
+				<footer>
+				<p>CONTACTO <br>
+				Telefono/Whatsapp: 538295245 </p>
+				<a href="mailto:HARDSOFT@gmail.com">ENVIANOS UN EMAIL</a><br>
+				<a href="contacto.html">O ENVIANOS TU CONSULTA</a>
+				</footer>
+			</div>	
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<footer>
+					<p>HORARIO DE ATENCION: <br>
+					LUNES A VIERNES DE 9 A 17Hs</p>
+				
+				<p>Nuestras Redes</p>
+				<a href="https://www.facebook.com/"><img src="ImagenesRedes/facebook.png" class="imgRedes"></a>
+				<a href="https://www.instagram.com/?hl=es-la"><img src="ImagenesRedes/instagram.png" class="imgRedes"></a>
+				
+				</footer>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<footer>
+					<a href="contacto.html #mapa" >
+					¿COMO LLEGAR?<br>
+					<img src="Imagenes/mapa.png" id="imgMapa" width="450px" height="350px">
+					</a>
+				</footer>
+			</div>		
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<footer>
+					<p>2019 EDI®</p>
+				</footer>
+			</div>
+		</div>
+
+
+
+
+	</div>
+</body>
+</html>

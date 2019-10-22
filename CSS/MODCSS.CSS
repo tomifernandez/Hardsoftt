@@ -1,0 +1,219 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/*background-image: url(Imagenes/fondo1.jpg);*/
+	background-color: rgb(23 22 22);
+	background-position: center;
+	
+	font-family: 'Fira Sans', sans-serif;
+	
+	/*font-size: 12pt;*/
+	color:#ffa366;
+}
+footer a{
+	color: #ffa366;
+	text-decoration:none;
+	
+}
+footer a:hover{
+	color: #e6e6e6;
+	text-decoration:none;
+}
+/*para dar formato a los titulos*/
+.titulo{
+	font-family: 'Merriweather', serif;
+	color: #ffa366;
+	
+}
+/*para modificar el contenido en las diferentes partes*/
+.contenido{
+	font-family: 'PT serif', serif;
+	color:#e6e6e6;
+	font-size: 18px;
+}
+
+
+
+.tarjeta{
+	background-color: rgb(23 55 93);
+}
+
+/*para modificar los articulos*/
+.art{
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left:15%;
+
+}
+/*para modificar la posicion de la descripcion
+de recomendacion*/
+.art1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left:15%;
+	
+}
+footer{
+	margin-top:5%;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.hr1{
+	height: 2px;
+	background-color: white;
+}
+/*modifica la posicion del bonton Login*/
+.posicion{
+	margin-top: 0%;
+	margin-left: 95%;
+}
+/*modifica la posicion de la barra de menu*/
+.posicionMenu{
+	margin-top: -5%;
+}
+/*modifica la posicion del mapa de contacto*/
+#map{
+	margin-top: 10%;
+}
+/*modifica posicion del formulario */
+#formulario{
+	margin-top: 5%;
+}
+
+/*modifica posicion del dropbox de recomendaciones*/
+.Componentes{
+	margin-left: 15%; 
+}
+/*Modificadores de imagenes*/
+#Logo{
+	width: 250px;
+}
+/*modifica imagenes index*/
+#imgA{
+	margin-top: 10%;
+	width:100%;
+	height: 60%;
+}
+#imgB{
+	width:110%;
+	height: 85%;
+}
+#imgC{
+	margin-top: 3%;
+	width:100%;
+	height: 85%;
+}
+/*modifica tamaño de logos de redes*/
+.imgRedes{
+	width: 15%;
+	height: 15%;
+}
+/*tamaño del logo y Productos en Recomendaciones*/
+.logoIntel{
+	width: 25%;
+	height: 25%;
+	color: #e6e6e6
+	background-color: #e6e6e6; 
+}
+.imgComponentes{
+	width: 70%;
+	height: 70%;
+	color: #e6e6e6
+	background-color: #e6e6e6; 
+	
+}
+
+.imgGabinetes{
+	margin-left: 15%;
+	width: 50%;
+	height: auto;
+}
+/*tamaño de las img de la tarjetas de presentacion*/
+.imgIntegrante{
+	
+	width: 50%;
+	height: 50%;
+}
+
+.imgcarousel {
+	width: 50%;
+	margin-left: 20%;
+	height: 100%;
+}
+
+.alinear {
+	text-align: center;
+}
+/*para dar Formato a los diferentes aspectos del Menu*/
+#navbarMenu ul li {
+	text-align: center;
+	cursor:pointer; 
+	text-transform: uppercase;
+	
+}
+#navbarMenu ul li:hover{
+	background-color: #e6e6e6;
+	color: #ffa366;
+	border-radius: 5px;
+}
+#navbarMenu ul li a{
+	color:#ffa366;
+	
+}
+#navbarMenu ul li a:hover{
+	color: #ffa366;
+}
+#navbarMenu ul li div{
+	background-color: rgb(23 22 22);
+}
+
+#navbarMenu ul li div a{
+	font-size: 10pt;
+	text-decoration: none;
+	 color: #ffa366;
+}
+#navbarMenu ul li div a:visited{
+	background-color:#e6e6e6;
+
+}
+
+
+/*Formato del div dentro de la clase product("productos")*/
+.product div{
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+	height: 40%;
+	width: 22%;
+}
+/*Formato de las imagenes dentro de la clase product("productos")*/
+.product img{
+	width: 60%;
+	height: auto;
+	max-height: 50%;
+}
+
+/*Formato de la etiqueta P en la clase product("productos")*/
+.product p{
+	color:#e6e6e6;
+	font-family: 'PT serif', serif;
+	font-size: 16px;
+	margin-top: 5%;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*Cambiar color de fondo de los formularios*/
+#selectTipo{
+	background-color: #e6e6e6;
+}
+
+.tarjetas{
+	text-align: center;
+	height: auto;
+	width: auto;
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>HARDSOFT</title>
+	<link rel="shortcut icon" type="image/png" href="Imagenes/logoc.png">
+	<meta charset="utf-8">
+	<!--de este link se obtiene la fuente de las letras utilizadas en el css-->
+	<link rel="stylesheet" type="text/css" href="CSS/FiraSans.CSS">
+	<link href="CSS/FontMerieweather.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/PTserif/PT_Serif-Web-Italic">
+	<!--en esta linea se refiera al documento CSS en si-->
+	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/modCss.css">
+	<script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+	<script src="bootstrap/popper/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="posicion">
+		  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#dialogo1">Login</button>
+
+    <div class="modal fade" id="dialogo1">
+      <div class="modal-dialog modal-md modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- cabecera del diálogo -->
+          <div class="modal-header">
+            <h4 class="modal-title">Iniciar Sesión</h4>
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+    
+          <!-- cuerpo del diálogo -->
+          <div class="col-md-7">
+          <div class="modal-body">
+            <form>
+          		<div class="form-group">
+            		<label for="recipient-name" class="col-form-label" >Usuario</label>
+            		<input type="text" class="form-control" id="recipient-name" placeholder="ingrese su usuario">
+        	  	</div>
+        	  	<div class="form-group">
+				    <label for="exampleInputPassword1">Contraseña</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ingrese su contraseña">
+			  	</div>
+      		</form>
+          </div>
+    	  </div>	
+          <!-- pie del diálogo -->
+          <div class="modal-footer">
+          	<button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    </div>
+			</div>
+		</div>
+
+		<div class="row">
+		<div class="col-md-11">
+			<div class="posicionMenu">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-rgb(23 55 93)">
+
+		  <a class="navbar-brand" href="index.html"><img src="Imagenes/Captura.png"></a>
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarMenu">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Inicio</a>
+		      </li>
+
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-toggle="dropdown">
+		          Productos
+		        </a>
+		        <div class="dropdown-menu" >
+		          <a class="dropdown-item" 
+		          href="productos.html#micro">Microprocesador</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#mother">Motherboard</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#ram">Memoria</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#video">Placa de Video</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#hdd">HDD</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="productos.html#fuentes">Fuentes</a>
+		        </div>
+		      </li>
+		         <li class="nav-item">
+		        <a class="nav-link" href="recomendaciones.html">Recomendados</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="contacto.html">Contacto</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="quienessomos.html">Quienes Somos</a>
+		     </li>
+		    
+		    </ul>
+		 
+		   
+		  </div>
+		  
+		</nav>
+		</div>
+		</div>		
+		</div>
+			<!-- -->
+			<div class="row">
+			<div class="col-md-12 ">
+				<div class="alinear">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			  		<div class="carousel-inner">
+			    <div class="carousel-item active ">
+			      <div class="imgcarousel"><img src="Imagenes/MotherAMD.png" class="d-block w-100" alt="..."></div>
+			    </div>
+			    <div class="carousel-item">
+			     <div class="imgcarousel"><img src="Imagenes/MotherAMD2.png" class="d-block w-100" alt="..."></div>
+			    </div>
+			    <div class="carousel-item">
+			     <div class="imgcarousel"><img src="Imagenes/MotherAMD.png" class="d-block w-100" alt="..."></div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			</div>
+			</div>
+			</div>
+
+
+
+
+
+
+
+
+	<hr class="hr1">
+		
+		<div class="row">
+			<div class="col-md-3">
+				<img src="Imagenes/Gabinetess.png"  class="img-fluid" id="imgA" >	
+			</div>
+			<div class="col-lg-6">
+				<article class="art">
+					<h3 class="titulo">PC´S RECOMENDADAS</h3>
+					
+						<div class="contenido"><p>Te brindamos diferentes propuestas para que adquieras una PC de alto rendimiento. <br>
+						Trabajamos con componentes de última generación de las marcas líderes en el mercado.</p></div>
+				</article>
+			</div>
+		</div>	
+	
+	<hr class="hr1">
+			
+
+		<div class="row">
+			<div class=" col-md-3">
+				<img src="Imagenes/archivo.png"  class="img-fluid" id="imgB">
+			</div>
+			<div class="col-lg-6">
+				<article class="art">
+					<h3 class="titulo">HARDWARE</h3>
+					
+						<div class="contenido"><p>HARDSOFT trae para tí los nuevos avances Tecnologicos en cuanto a hardware se trate. Ya sea para una mejor experiencia de Juego, o para realizar tus Tareas o Proyectos de forma rápida y ágil.
+							<br>En HARDSOFT encontraras una Solucion hecha a tu medida</p></div>
+				</article>
+			</div>
+			<div class="col-md-3 d-none d-md-block">
+				<img src="Imagenes/MotherAB350MM.png"  class="img-fluid" id="imgC">
+			</div>
+		</div>
+		
+		<hr class="hr1">
+		
+		<div class="row justify-content-center">
+			<div class="col-md-4">
+				<footer>
+				<p>CONTACTO <br>
+				Telefono/Whatsapp: 541136872481 </p>
+				<a href="mailto:HARDSOFT@gmail.com">ENVIANOS UN EMAIL</a><br>
+				<a href="contacto.html">O ENVIANOS TU CONSULTA</a>
+				</footer>
+			</div>	
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<footer>
+					<p>HORARIO DE ATENCION: <br>
+					LUNES A VIERNES DE 9 A 17Hs</p>
+				<p>Nuestras Redes</p>
+				<a href="https://www.facebook.com/"><img src="ImagenesRedes/facebook.png" class="imgRedes"></a>
+				<a href="https://www.instagram.com/?hl=es-la"><img src="ImagenesRedes/instagram.png" class="imgRedes"></a>
+				
+				</footer>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<footer>
+					<a href="contacto.html #mapa" >
+					¿COMO LLEGAR?<br>
+					<img src="Imagenes/mapa.png" id="imgMapa" width="450px" height="350px">
+					</a>
+				</footer>
+			</div>		
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-12">
+				<footer>
+					<p>2019 EDI®</p>
+				</footer>
+			</div>
+		</div>
+		
+
+
+
+	</div>
+</body>
+
+</html>
